@@ -1,0 +1,30 @@
+@keyframes shine {
+  from {
+    background-position: right center;
+  }
+  to {
+    background-position: left center;
+  }
+}
+
+@keyframes opacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes textGradient {
+  0% {
+    background-position: right;
+  }
+  100% {background-position: left;}
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+@keyframes fadeUp {
+  from {opacity: 0; top: 100px;}
+  to {opacity: 1; top: 0;}
+}
